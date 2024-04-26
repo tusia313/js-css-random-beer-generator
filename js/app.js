@@ -1,3 +1,4 @@
+// document.addEventListener('DOMContentLoaded', function() {
 const thingButton = document.querySelector('#thing-button')
 const randomThingImage = document.querySelector('#random-thing-image')
 const randomThingDescription = document.querySelector('#description')
@@ -11,5 +12,7 @@ function getData() {
         randomThingDescription.textContent = description
     })
 }
+getData()
 
 thingButton.addEventListener('click', getData)
+// })
