@@ -21,8 +21,12 @@ h3 {
     border: none;
     border-radius: 1em;
     padding: 1.3rem;
+    cursor: grab;
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
 
 #thing-button:active {
     background-color: rgb(198, 130, 238);
+
 }
