@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 188, 78);
+    display: flex;
+    justify-content: center;
+    height: 100svh;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+#thing-button {
+    background-color: rgb(253, 122, 122);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 1.3rem;
+}
+
+#thing-button:active {
+    background-color: rgb(198, 130, 238);
+}
