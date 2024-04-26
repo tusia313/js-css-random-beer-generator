@@ -1,5 +1,5 @@
 const thingButton = document.querySelector('#thing-button')
-const randomThingTitle = document.querySelector('#random-thing')
+const randomThingImage = document.querySelector('#random-thing-image')
 const randomThingDescription = document.querySelector('#description')
 
 function getData() {
@@ -7,6 +7,8 @@ function getData() {
     .then(response => response.json())
     .then(data => {
         console.log(data)
+        const description = data.value
+        randomThingDescription.textContent = description
     })
 }
 

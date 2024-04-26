@@ -11,8 +11,15 @@ body {
     color: rgb(255, 255, 255);
 }
 
-h3 {
-    font-size: 2rem;
+img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+}
+
+#description {
+    font-size: 1.5rem;
+    max-width: 50svw;
 }
 
 #thing-button {
