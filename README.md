@@ -1,5 +1,5 @@
 
-# 🤓 Random Chuck Norris joke
+# 🔫 Chuck Norris jokes generator 🔫
 
 ##  What's it about?
 
